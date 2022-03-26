@@ -1,0 +1,27 @@
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      account: '',
+    }
+  }
+  render() {
+    return (
+      <div>
+      <Navbar account={this.state.account} />
+      { this.state.loading
+        ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
+        : <Main
+          // Code...
+          />
+        }
+      
+    </div>
+    )
+  }
+}
+
+export default App;
