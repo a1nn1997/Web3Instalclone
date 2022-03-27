@@ -8,7 +8,7 @@
 ## clone initial project
 
 ## truffle usage
-tuffle migrate --reset  </br>
+truffle migrate --reset  </br>
 truffle console     </br>
 to see real time truffle envt in javascript </br>
     inside console  </br>
@@ -22,6 +22,11 @@ to see real time truffle envt in javascript </br>
 ## testing truffle
 truffle test.js
 ## as smart contract is immutable testing of smart contract is essential
+
+## after testing
+truffle migrate --reset  </br>
+
+## CONNECT EHERIUM WEB3 IN APP.JS
 
 
 
