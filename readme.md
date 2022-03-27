@@ -19,6 +19,11 @@ to see real time truffle envt in javascript </br>
     name    //decentragram</br>
     .exit //ti exit the console </br>
 
+## testing truffle
+truffle test.js
+## as smart contract is immutable testing of smart contract is essential
+
+
 
 
 
